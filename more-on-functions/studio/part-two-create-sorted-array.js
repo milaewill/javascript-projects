@@ -1,14 +1,15 @@
-function findMinValue(arr){
+function findMinValue(arr) {
   let min = arr[0];
-  for (i = 0; i < arr.length; i++){
-    if (arr[i] < min){
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] < min) {
       min = arr[i];
     }
   }
   return min;
 }
 
-//Create a function with an array of numbers as its parameter. This function will return a new array with the numbers sorted from least to greatest value.
+//Create a function with an array of numbers as its parameter
+//This function will return a new array with the numbers sorted from least to greatest value.
 
 /*Within the function:
 1) Define a new, empty array to hold the final sorted numbers.
@@ -19,6 +20,13 @@ function findMinValue(arr){
 6) Be sure to print the results in order to verify your code.*/
 
 //Your function here...
+
+
+
+function sortNums(arrOfNums) {
+  let finalSortedNumbers = [];
+  findMinValue.splice(index[i]);
+}
 
 /* BONUS MISSION: Refactor your sorting function to use recursion below:
  */

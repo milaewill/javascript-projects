@@ -31,8 +31,8 @@ for (let i = 0; i < prompts.length; i++) {
         console.log(`${astronauts[j]}'s test average = ${avg}%.`);
       }
     } else {
-      let walker = //Call 'randomSelect' to pick a spacewalker from the astronauts array.
-        console.log(`${walker} is the next spacewalker.`);
+      let walker = randomSelect{ astronauts }
+      console.log(`${walker} is the next spacewalker.`);
     }
   } else {
     console.log("Option skipped.");
