@@ -6,19 +6,51 @@ function gradeLabs(labs) {
   }
 }
 
-let studentLabs = [
+// let studentLabs = [
+//   {
+//     student: 'Carly',
+//     runLab: function (num) {
+//         return Math.pow(num, num);
+//     }
+//   },
+//   {
+//     student: 'Erica',
+//     runLab: function (num) {
+//         return num * num;
+//     }
+//   }
+// ];
+
+
+let studentLabs2 = [
   {
-    student: 'Carly',
-    runLab: function (num) {
-        return Math.pow(num, num);
+    student: 'Blake',
+    myCode: function (num) {
+      return Math.pow(num, num);
     }
   },
   {
-    student: 'Erica',
+    student: 'Jessica',
     runLab: function (num) {
-        return num * num;
+      return Math.pow(num, num);
+    }
+  },
+  {
+    student: 'Mya',
+    runLab: function (num) {
+      return num * num;
     }
   }
 ];
 
-gradeLabs(studentLabs);
+
+
+gradeLabs(studentLabs2)
+try {
+  console.log();
+} catch (err) {
+  console.log("Error thrown");
+}
+
+
+
