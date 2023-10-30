@@ -2,7 +2,7 @@
 
 let startingFuel;
 let numOfAstronautsAboard;
-let altitudeShuttleReach;
+let altitudeShuttleReach; 
 
 
 
